@@ -19,14 +19,14 @@ export default class EventHandler {
         const text = add
 					? `- ${group.subject || "___"} -\n\n💠 *Group Description:*\n${
 							group.desc
-					  }\n\nHope you follow the rules and have fun! If you want to add me in your grp than plz ask the bots mod use the command .mod\n\n${event.participants
+					  }\n\nHope 😃 you follow the rules and have 😜 fun! If you want to add me 😒 in your grp than plz don't 👩‍💻 ask the bots mod 👌 useing the command .mod\n\n${event.participants
 							.map((jid) => `@${jid.split("@")[0]}`)
 							.join(", ")}`
 					: event.action === "remove"
-					? `Goodbye *@${
+					? `Goodbye not gonna miss a fool like you *@${
 							event.participants[0].split("@")[0]
-					  }* 👋🏻, why did you even join this group at the first place if you were to leave. Don't come back Sayonara.`
-					: `Ufff, looks like *@${
+					  }* 👋🏻, why did you 👌 even join this group at the first place 🤨 if you were to leave. Don't come back 😒 Sayonara motherfucker.`
+					: `Ufff, looks 👀 like *@${
 							event.participants[0].split("@")[0]
 					  }* got ${this.client.util.capitalize(event.action)}d${
 							event.actor ? ` by @${event.actor.split("@")[0]}` : ""
