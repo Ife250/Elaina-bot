@@ -45,10 +45,10 @@ export default class Command extends BaseCommand {
             let text = `
 ╭─「(づ￣ 3￣)づ」
 │⋊ 𝕌𝕤𝕖𝕣: *${M.sender.username}*
-│⋊ ℕ𝕒𝕞𝕖: akuma
+│⋊ ℕ𝕒𝕞𝕖: ꪶ࿋྄ིᤢꫂ kingsley ꪶ࿋྄ིᤢꫂ
 │⋊ ℙ𝕣𝕖𝕗𝕚𝕩: ${this.client.config.prefix}
-│⋊ 𝕆𝕨𝕟𝕖𝕣: *${this.client.config.prefix}mod* Ask Mods if you want to add me in your Group
-│⋊ 𝕆𝕗𝕗𝕚𝕔𝕚𝕒𝕝 𝔾𝕣𝕠𝕦𝕡: https://chat.whatsapp.com/CHHHjzvIjvd6Tu4uH42MfZ
+│⋊ 𝕆𝕨𝕟𝕖𝕣: *${this.client.config.prefix}mod* don't ask kingsley or his Mods 👀 if you want to add me 🤨 in your Group
+│⋊ 𝕆𝕗𝕗𝕚𝕔𝕚𝕒𝕝 𝔾𝕣𝕠𝕦𝕡: https://chat.whatsapp.com/IDZRRpcy0ZpLCetx1I9rFt
 ╰────────────┈平和                            \n\n`
             const keys = Object.keys(categories)
             for (const key of keys)
@@ -62,7 +62,7 @@ export default class Command extends BaseCommand {
             caption: `${text} 
  ──❅┈[ *akuma* 𝑩𝒐𝒕 ]┈❅───
 ┌────────────┈❅
-│   🧨 AKUMA
+│   🧨 kingsley
 │   ©️ ՏYᑎTᕼᗴՏIᘔᗴᗪ IᑎᖴIᑎITY
 └────────────┈⁂
 ❅┈[𝐇𝐚𝐯𝐞 𝐆𝐫𝐞𝐚𝐭 𝐃𝐚𝐲]┈❅
